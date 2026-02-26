@@ -1,0 +1,16 @@
+#Gateway Router
+http://localhost:8765/login/oauth2/code/*
+http://localhost:8765/*
+http://localhost:8765/swagger-ui/oauth2-redirect.html
+#cloud gateway for authorization
+http://localhost:7060/login/oauth2/code/*
+http://localhost:7060/*
+http://localhost:7060/swagger-ui/oauth2-redirect.html
+#API urls
+http://localhost:7076/login/oauth2/code/*
+http://localhost:7076/*
+http://localhost:7076/swagger-ui/oauth2-redirect.html
+
+#Web Origin
+http://localhost:8765
+http://localhost:7076
