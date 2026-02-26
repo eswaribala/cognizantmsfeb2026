@@ -17,22 +17,22 @@ spring:
             #jwk-set-uri: http://localhost:8080/realms/master/protocol/openid-connect/certs
 
         registration:
-          keycloak-with-developer-scope:
+          keycloak-with-sre-scope:
             provider: keycloak
-            client-id: user1
-            client-secret: UQ8RUdmh6yscVzS8wT7D87WB1l65JG3x
+            client-id: user3
+            client-secret: TRiG71QBSQHH9lL27YuAauCQ08KgQJzH
             client-authentication-method: client_secret_basic
             authorization-grant-type: client_credentials
             #redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
-            scope: developer
-          keycloak-with-tester-scope:
+            scope: sre
+          keycloak-with-devopsengineer-scope:
             provider: keycloak
-            client-id: user2
-            client-secret: cmsQ4v9ljWQqoLf52lVKjAAw1aHM7Y9D
+            client-id: user4
+            client-secret: hkUHpZYpK2uyB7v3MkFYIxzWIqNidp3I
             client-authentication-method: client_secret_basic
             authorization-grant-type: client_credentials
             #redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
-            scope: tester
+            scope: devopsengineer
   securitySchemes:
     my_oAuth_security_schema:
       type: oauth2

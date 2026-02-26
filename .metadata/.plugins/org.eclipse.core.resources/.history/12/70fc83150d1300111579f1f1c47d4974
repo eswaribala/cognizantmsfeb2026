@@ -1,0 +1,5 @@
+package com.cognizant.gateway.configurations;
+
+public class SecurityConfig {
+
+}
