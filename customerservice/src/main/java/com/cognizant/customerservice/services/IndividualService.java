@@ -14,5 +14,6 @@ public interface IndividualService {
 	Individual updateIndividual(Long id, String email, long phoneNumber);
 	boolean deleteIndividual(Long id);
 	List<Individual> getAllIndividualsByPagination(Pageable pageable);
+	List<Individual> getIndividualsByContactNo(long contactNo);
 
 }

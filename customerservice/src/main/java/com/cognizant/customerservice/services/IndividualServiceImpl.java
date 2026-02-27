@@ -65,4 +65,10 @@ public class IndividualServiceImpl  implements IndividualService {
 		return individualRepository.findAll(pageable).getContent();
 	}
 
+	@Override
+	public List<Individual> getIndividualsByContactNo(long contactNo) {
+		// TODO Auto-generated method stub
+		return individualRepository.findByContactNo(contactNo);
+	}
+
 }

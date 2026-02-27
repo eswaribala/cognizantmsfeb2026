@@ -24,15 +24,15 @@ public class Customer {
 	@AccountNoAnnotator
 	@Column(name = "account_no")
 	@Schema(hidden = true)
-	private Long accountNo;
+	protected Long accountNo;
 	@Embedded
-	private FullName fullName;
+	protected FullName fullName;
 	@Column(name = "contact_no")
-	private long contactNo;
+	protected long contactNo;
 	@Column(name = "email", unique = true, nullable = false,length = 100)
-	private String email;
+	protected String email;
 	@Column(name = "password", nullable = false,length = 10)
-	private String password;
+	protected String password;
 	
 
 
