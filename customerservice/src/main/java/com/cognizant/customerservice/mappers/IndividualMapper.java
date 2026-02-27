@@ -9,7 +9,7 @@ import com.cognizant.customerservice.entities.Individual;
 
 @Mapper(componentModel = "spring", uses = {CustomerMapper.class, FullNameMapper.class})
 public interface IndividualMapper {
-	@Mapping(target = "accountNo", source = "individualRequest.accountNo")
+	//@Mapping(target = "accountNo", source = "individualRequest.accountNo")
 	@Mapping(target = "fullName", source = "individualRequest.fullNameRequest")
 	//dtos to entity
 	Individual toEntity(IndividualRequest individualRequest);

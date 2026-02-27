@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CustomerRequest {
-	@Schema(hidden = true)
-	private long accountNo;
+	//@Schema(hidden = true)
+	//private long accountNo;
 	private FullNameRequest fullNameRequest;
 	@Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "Invalid email format")
 	private String email;
