@@ -1,0 +1,13 @@
+package com.cognizant.gateway.services;
+
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientManager;
+import org.springframework.stereotype.Service;
+
+@Service
+public class TokenService {
+	private final ReactiveOAuth2AuthorizedClientManager authorizedClientManager;
+
+	public TokenService(ReactiveOAuth2AuthorizedClientManager authorizedClientManager) {
+		this.authorizedClientManager = authorizedClientManager;
+	}
+}

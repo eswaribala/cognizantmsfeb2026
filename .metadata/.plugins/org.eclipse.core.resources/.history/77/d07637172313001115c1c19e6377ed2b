@@ -1,0 +1,41 @@
+package com.cognizant.gateway.services;
+
+import org.springframework.security.oauth2.client.OAuth2AuthorizeRequest;
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientManager;
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientProvider;
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientProviderBuilder;
+import org.springframework.security.oauth2.client.registration.ReactiveClientRegistrationRepository;
+import org.springframework.security.oauth2.client.web.DefaultReactiveOAuth2AuthorizedClientManager;
+import org.springframework.security.oauth2.client.web.server.ServerOAuth2AuthorizedClientRepository;
+import org.springframework.stereotype.Service;
+
+import reactor.core.publisher.Mono;
+
+@Service
+public class TokenService {
+	private final ReactiveOAuth2AuthorizedClientManager authorizedClientManager;
+
+	public TokenService(ReactiveClientRegistrationRepository reactiveClientRegistrationRepository, ServerOAuth2AuthorizedClientRepository authorizedClients) {
+		ReactiveOAuth2AuthorizedClientProvider provider =
+                ReactiveOAuth2AuthorizedClientProviderBuilder.builder()
+                        .clientCredentials()
+                        .build();
+
+        DefaultReactiveOAuth2AuthorizedClientManager m =
+                new DefaultReactiveOAuth2AuthorizedClientManager(reactiveClientRegistrationRepository, authorizedClients);
+
+        m.setAuthorizedClientProvider(provider);
+        this.authorizedClientManager = m;
+	}
+	public Mono<String>  getToken(String registrationId) {
+        OAuth2AuthorizeRequest request = OAuth2AuthorizeRequest
+                .withClientRegistrationId(registrationId)
+                // principal name can be anything for client_credentials
+                .principal("gateway-service")
+                .build();
+        return authorizedClientManager.authorize(request)
+                .map(OAuth2AuthorizedClient::getAccessToken)
+                .map(OAuth2AccessToken::getTokenValue);
+                
+    }
+}

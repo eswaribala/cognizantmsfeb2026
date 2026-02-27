@@ -1,0 +1,28 @@
+package com.cognizant.gateway.services;
+
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientManager;
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientProvider;
+import org.springframework.security.oauth2.client.ReactiveOAuth2AuthorizedClientProviderBuilder;
+import org.springframework.security.oauth2.client.registration.ReactiveClientRegistrationRepository;
+import org.springframework.security.oauth2.client.web.DefaultReactiveOAuth2AuthorizedClientManager;
+import org.springframework.security.oauth2.client.web.server.ServerOAuth2AuthorizedClientRepository;
+import org.springframework.stereotype.Service;
+
+@Service
+public class TokenService {
+	private final ReactiveOAuth2AuthorizedClientManager authorizedClientManager;
+
+	public TokenService(ReactiveClientRegistrationRepository reactiveClientRegistrationRepository, ServerOAuth2AuthorizedClientRepository authorizedClients) {
+		ReactiveOAuth2AuthorizedClientProvider provider =
+                ReactiveOAuth2AuthorizedClientProviderBuilder.builder()
+                        .clientCredentials()
+                        .build();
+
+        DefaultReactiveOAuth2AuthorizedClientManager m =
+                new DefaultReactiveOAuth2AuthorizedClientManager(registrations, authorizedClients);
+
+        m.setAuthorizedClientProvider(provider);
+        this.authorizedClientManager = m;
+	}
+	
+}

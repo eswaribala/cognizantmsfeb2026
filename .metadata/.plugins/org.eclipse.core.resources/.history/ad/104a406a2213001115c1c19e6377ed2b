@@ -1,0 +1,5 @@
+package com.cognizant.gateway.services;
+
+public class TokenService {
+
+}
