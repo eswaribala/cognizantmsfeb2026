@@ -95,6 +95,12 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- WebFlux + OpenAPI/Swagger UI for Spring Boot 4 -->
+    <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
+        <version>3.0.1</version>
+    </dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
