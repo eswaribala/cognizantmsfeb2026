@@ -34,7 +34,7 @@ public class TokenService {
 	}
 	
 	public Mono<String> getToken(String clientRegistrationId) {
-		//create an OAuth2AuthorizeRequest with the provided clientRegistrationId and a principal name "gateway"
+		//
 		OAuth2AuthorizeRequest auth2AuthorizeRequest = OAuth2AuthorizeRequest
 				.withClientRegistrationId(clientRegistrationId)
 				.principal("gateway").build();
