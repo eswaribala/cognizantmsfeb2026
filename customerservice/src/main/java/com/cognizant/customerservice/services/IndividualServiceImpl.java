@@ -9,7 +9,7 @@ import com.cognizant.customerservice.entities.Individual;
 import com.cognizant.customerservice.exceptions.CustomerNotFoundException;
 import com.cognizant.customerservice.repositories.IndividualRepository;
 @Service
-public class IndividalServiceImpl  implements IndividualService {
+public class IndividualServiceImpl  implements IndividualService {
 	@Autowired
 	private IndividualRepository individualRepository;
 
