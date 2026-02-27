@@ -29,25 +29,40 @@ public class IndividualServiceImpl  implements IndividualService {
 	@Override
 	public List<Individual> getAllIndividuals() {
 		// TODO Auto-generated method stub
-		return null;
+		return individualRepository.findAll();
 	}
 
 	@Override
 	public Individual updateIndividual(Long id, String email, long phoneNumber) {
 		// TODO Auto-generated method stub
-		return null;
+		Individual individual = individualRepository.findById(id).orElseThrow(
+				()->new CustomerNotFoundException("Individual with id "+id+" not found"));
+		if(individual!=null) {
+			individual.setEmail(email);
+			individual.setContactNo(phoneNumber);
+			return individualRepository.save(individual);
+		}else {
+			return null;
+		}
 	}
 
 	@Override
 	public boolean deleteIndividual(Long id) {
 		// TODO Auto-generated method stub
-		return false;
+		Individual individual = individualRepository.findById(id).orElseThrow(
+				()->new CustomerNotFoundException("Individual with id "+id+" not found"));
+		if(individual!=null) {
+			individualRepository.delete(individual);
+			return true;
+		}else {
+			return false;
+		}
 	}
 
 	@Override
 	public List<Individual> getAllIndividualsByPagination(Pageable pageable) {
 		// TODO Auto-generated method stub
-		return null;
+		return individualRepository.findAll(pageable).getContent();
 	}
 
 }
