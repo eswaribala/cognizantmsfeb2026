@@ -22,7 +22,7 @@ public class AccountNoGenerator implements BeforeExecutionGenerator{
 		// TODO Auto-generated method stub
 		Faker faker = new Faker();
 		if(currentValue == null) {
-			return faker.number().digits(12);
+			return Long.parseLong(faker.number().digits(12));
 		}else
 			return currentValue;
 		

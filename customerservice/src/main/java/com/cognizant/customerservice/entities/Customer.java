@@ -24,7 +24,7 @@ public class Customer {
 	@AccountNoAnnotator
 	@Column(name = "account_no")
 	@Schema(hidden = true)
-	private long accountNo;
+	private Long accountNo;
 	@Embedded
 	private FullName fullName;
 	@Column(name = "contact_no")
