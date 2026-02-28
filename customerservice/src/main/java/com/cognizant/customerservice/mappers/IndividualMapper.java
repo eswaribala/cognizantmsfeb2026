@@ -1,5 +1,7 @@
 package com.cognizant.customerservice.mappers;
 
+import java.util.List;
+
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
@@ -15,5 +17,7 @@ public interface IndividualMapper {
 	Individual toEntity(IndividualRequest individualRequest);
 	//entity to dtos
 	IndividualResponse toRequest(Individual individual);
+	//entity list to dto list
+	List<IndividualResponse> toResponseList(List<Individual> individuals);
 
 }

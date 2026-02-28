@@ -23,6 +23,7 @@ public class GlobalExceptionHandler {
 
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public ResponseEntity<GenericMessage<String>> handleMethodArgumentNotValidException
+	
 	(MethodArgumentNotValidException ex) {
 	    String errorMessage = ex.getBindingResult().getAllErrors().stream()
 	            .map(error -> error.getDefaultMessage())
