@@ -15,6 +15,8 @@ import com.cognizant.customerservice.entities.Individual;
 import com.cognizant.customerservice.mappers.IndividualMapper;
 import com.cognizant.customerservice.services.IndividualService;
 
+import jakarta.validation.Valid;
+
 @RestController
 @RequestMapping("/individuals")
 public class IndividualController {
@@ -22,8 +24,9 @@ public class IndividualController {
 	private IndividualService individualService;
 	@Autowired
 	private IndividualMapper individualMapper;
+	//validation can be added using @Valid and validation annotations in the DTO
 	@PostMapping("/v1.0")
-	public ResponseEntity<GenericMessage> createIndividual(@RequestBody IndividualRequest individualRequest) {
+	public ResponseEntity<GenericMessage> createIndividual(@Valid @RequestBody IndividualRequest individualRequest) {
 		//dto to entity
 		Individual individual = individualMapper.toEntity(individualRequest);
 		Individual savedIndividual = individualService.addIndividual(individual);
@@ -33,6 +36,7 @@ public class IndividualController {
 		return ResponseEntity.status(HttpStatus.CREATED)
 				.body(new GenericMessage<IndividualResponse>(individualResponse));
 	}
+	
 	
 
 }
