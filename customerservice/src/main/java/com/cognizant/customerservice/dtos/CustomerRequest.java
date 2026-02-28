@@ -16,7 +16,9 @@ public class CustomerRequest {
 	@Pattern(regexp = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$", message = "Invalid email format")
 	private String email;
 	private long contactNo;
-	@Pattern(regexp = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$", message = "Password must be at least 8 characters long and contain both letters and numbers")
+	//password with special characters and minimum 8 characters
+	@Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$", 
+		 message = "Password must be minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character")
 	private String password;
 	
 

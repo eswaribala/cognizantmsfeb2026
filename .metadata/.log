@@ -4180,3 +4180,206 @@ java.lang.InterruptedException
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 09:44:19.602
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/controllers/IndividualController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 09:47:14.675
+!MESSAGE [Info] Document is null for editor: IndividualResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 09:47:14.855
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/dtos/IndividualResponse.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 09:55:49.539
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 09:55:49.557
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/gatewayauthorizer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:00:35.555
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:00:35.572
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:03:52.692
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:03:52.873
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.449
+!MESSAGE [Info] Document is null for editor: CustomerserviceApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.626
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/CustomerserviceApplication.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.667
+!MESSAGE [Info] Document is null for editor: AccountNoAnnotator.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.684
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/facades/AccountNoAnnotator.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.722
+!MESSAGE [Info] Document is null for editor: AccountNoGenerator.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.738
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/entities/AccountNoGenerator.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.769
+!MESSAGE [Info] Document is null for editor: FullName.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.784
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/entities/FullName.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.866
+!MESSAGE [Info] Document is null for editor: Customer.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:15:16.881
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/entities/Customer.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:23:38.538
+!MESSAGE [Info] Document is null for editor: IndividualServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:23:38.556
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/services/IndividualServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:23:38.721
+!MESSAGE [Info] Document is null for editor: IndividualRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:23:38.735
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/repositories/IndividualRepository.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:33:09.354
+!MESSAGE [Info] Document is null for editor: IndividualServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:33:09.379
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/services/IndividualServiceImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:33:10.315
+!MESSAGE [Info] Document is null for editor: IndividualService.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:33:10.338
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/services/IndividualService.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:25.616
+!MESSAGE [Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:28.695
+!MESSAGE [Info]	[fetchCompletions] Request f87e41ef-960e-4f1f-a3fc-66585c38b4ca at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2081.003299999982ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:28.722
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:29.517
+!MESSAGE [Info]	[fetchCompletions] Request 7b49257a-c24f-41db-acdc-5293a10691dd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 809.8323999997228ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:29.745
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:32.380
+!MESSAGE [Info]	[fetchCompletions] Request 4664476c-9387-4dfc-a3d9-4d55caa5a1cd at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 2561.5237000007182ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:32.698
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:33.506
+!MESSAGE [Info]	[fetchCompletions] Request 40a2b01a-62d1-4ce8-9855-bec64c8ad6f5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 704.9788999985904ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:33.534
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:34.265
+!MESSAGE [Info]	[fetchCompletions] Request 2403921d-174f-4a00-89a8-abcec08cbd27 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 674.980000000447ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:34.287
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:35.347
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:36.955
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:41.091
+!MESSAGE [Info]	[fetchCompletions] Request af5a1f4c-f201-46ae-ac37-45d617b65fe8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 494.2269999999553ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:42.012
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:42.491
+!MESSAGE [Info]	[fetchCompletions] Request ec7f4125-381e-4aff-8f6f-7dc6d654d1b7 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 418.79250000044703ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:42.561
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:42.992
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:43.547
+!MESSAGE [Info]	[code-referencing] Match found
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:43.574
+!MESSAGE [Info]	[code-referencing] Calling FilesForMatch
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 10:54:44.701
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 10:54:44.723
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 10:54:44.743
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 10:54:44.766
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 10:54:45.177
+!MESSAGE [Info]	[Public Code References] Text found matching public code in file:///e%3A/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/dtos/CustomerRequest.java [Ln 20, Col 5] near ttern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$",  		 message = "Password must be minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character")...:
+  1) [Apache-2.0] https://github.com/github-copilot/code_referencing?cursor=0b022763569abf784d08b3099eef26aa,9621577d40185bf9008faae0b4a9e2c5,
+  2) [unknown] https://github.com/github-copilot/code_referencing?cursor=0b022763569abf784d08b3099eef26aa,9621577d40185bf9008faae0b4a9e2c5,
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.043
+!MESSAGE [Info] Document is null for editor: GlobalExceptionHandler.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.072
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/exceptions/GlobalExceptionHandler.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.148
+!MESSAGE [Info] Document is null for editor: IndividualMapper.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.170
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/mappers/IndividualMapper.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.222
+!MESSAGE [Info] Document is null for editor: CustomerMapper.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.246
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/mappers/CustomerMapper.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.292
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.316
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/gatewayauthorizer/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.376
+!MESSAGE [Info] Document is null for editor: pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.396
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/pom.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.470
+!MESSAGE [Info] Document is null for editor: CustomerMapperImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.488
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/target/generated-sources/annotations/com/cognizant/customerservice/mappers/CustomerMapperImpl.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.528
+!MESSAGE [Info] Document is null for editor: IndividualController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.551
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/controllers/IndividualController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.686
+!MESSAGE [Info] Document is null for editor: CustomerRequest.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 10:55:04.707
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/dtos/CustomerRequest.java
