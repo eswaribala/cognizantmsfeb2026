@@ -23,12 +23,12 @@ public class OpenAPISecurityConfig {
     public OpenAPI openAPI() {
         return new OpenAPI()
             .components(new Components()
-                .addSecuritySchemes("keycloakDeveloper", oauthScheme("developer", "Developer access"))
-                .addSecuritySchemes("keycloakTester", oauthScheme("tester", "Tester access"))
+                .addSecuritySchemes("keycloakSRE", oauthScheme("sre", "SRE access"))
+                .addSecuritySchemes("keycloakDevOpsEngineer", oauthScheme("devopsengineer", "Devops Engineer access"))
             )
             // Don't force both scopes; Swagger will let you choose which scheme to authorize
-            .addSecurityItem(new SecurityRequirement().addList("keycloakDeveloper"))
-            .addSecurityItem(new SecurityRequirement().addList("keycloakTester"))
+            .addSecurityItem(new SecurityRequirement().addList("keycloakSRE"))
+            .addSecurityItem(new SecurityRequirement().addList("keycloakDevOpsEngineer"))
             .info(new Info()
                 .title("Customer Management Service")
                 .description("Customer API with OAuth2 Security")
