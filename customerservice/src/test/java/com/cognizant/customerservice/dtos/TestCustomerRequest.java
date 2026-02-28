@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.stream.Stream;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -30,11 +32,13 @@ public class TestCustomerRequest {
 	}
 
 	@Test
+	@Tag("dev")
 	public void testCustomerRequestNotNull() {
 		assertNotNull(customerRequest);
 	}
 	
 	@ParameterizedTest
+	@Tag("dev")
 	@CsvFileSource(resources = "/customerdata.csv", numLinesToSkip = 1)
 	public void testCustomerRequestProperties(String firstName, String lastName, String email, long contactNo, String password) {
 		fullNameRequest.setFirstName(firstName);
@@ -53,6 +57,7 @@ public class TestCustomerRequest {
 	}
 	
 	@ParameterizedTest
+	@Tag("qa")
 	@ValueSource(strings = {"Mithun", "Rakesh", "Swathi"})
 	public void testCustomerRequestFirstName(String name) {
 		fullNameRequest.setFirstName(name);
@@ -60,24 +65,30 @@ public class TestCustomerRequest {
 		assertNotNull(customerRequest.getFullNameRequest().getFirstName());
 	}
 	
-	
-	@ParameterizedTest
-	@MethodSource("getCustomerRequestList")
-	public void testCustomerRequestPropertiesUsingMethodSource(CustomerRequest customerRequest) {
-		fullNameRequest.setFirstName(customerRequest.getFullNameRequest().getFirstName());
-		fullNameRequest.setLastName(customerRequest.getFullNameRequest().getLastName());
-		customerRequest.setFullNameRequest(fullNameRequest);
-		customerRequest.setEmail(customerRequest.getEmail());
-		customerRequest.setContactNo(customerRequest.getContactNo());
-		customerRequest.setPassword(customerRequest.getPassword());
-		assertTrue(customerRequest.getFullNameRequest()
-				.getFirstName().equals(fullNameRequest.getFirstName()));	
-		assertAll(() -> assertTrue(customerRequest.getFullNameRequest()
-				.getLastName().equals(fullNameRequest.getLastName())),
-				() -> assertTrue(customerRequest.getEmail().equals(customerRequest.getEmail())),
-				() -> assertTrue(customerRequest.getContactNo() == customerRequest.getContactNo()),
-				() -> assertTrue(customerRequest.getPassword().equals(customerRequest.getPassword())));		
+	@Nested
+	class TestCustomerRequestInner {
+		@ParameterizedTest
+		@Tag("qa")
+		@MethodSource("com.cognizant.customerservice.dtos.TestCustomerRequest#getCustomerRequestList")
+		public void testCustomerRequestPropertiesUsingMethodSource(CustomerRequest customerRequest) {
+			fullNameRequest.setFirstName(customerRequest.getFullNameRequest().getFirstName());
+			fullNameRequest.setLastName(customerRequest.getFullNameRequest().getLastName());
+			customerRequest.setFullNameRequest(fullNameRequest);
+			customerRequest.setEmail(customerRequest.getEmail());
+			customerRequest.setContactNo(customerRequest.getContactNo());
+			customerRequest.setPassword(customerRequest.getPassword());
+			assertTrue(customerRequest.getFullNameRequest()
+					.getFirstName().equals(fullNameRequest.getFirstName()));	
+			assertAll(() -> assertTrue(customerRequest.getFullNameRequest()
+					.getLastName().equals(fullNameRequest.getLastName())),
+					() -> assertTrue(customerRequest.getEmail().equals(customerRequest.getEmail())),
+					() -> assertTrue(customerRequest.getContactNo() == customerRequest.getContactNo()),
+					() -> assertTrue(customerRequest.getPassword().equals(customerRequest.getPassword())));		
+		}
 	}
+	
+	
+	
 	
 	
 	private static Stream<Arguments> getCustomerRequestList() {
