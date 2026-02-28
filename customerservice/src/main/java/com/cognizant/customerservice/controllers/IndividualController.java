@@ -93,7 +93,7 @@ public class IndividualController {
 	}
 	
 	
-	@PatchMapping("/v1.0")
+	@PatchMapping("/v1.0/{id}")
 	public ResponseEntity<GenericMessage<IndividualResponse>> updateIndividualById
 	(@PathVariable Long id, @Valid @RequestBody UpdateRequest updateRequest) {
 		
