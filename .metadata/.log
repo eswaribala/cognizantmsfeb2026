@@ -4626,3 +4626,909 @@ java.lang.InterruptedException
 
 !ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:36:33.220
 !MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/resources/application.properties
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:41.210
+!MESSAGE [Info]	[fetchCompletions] Request 05bea70d-00f5-435b-8486-b68acae41ada at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 1065.4863999988884ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:41.381
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:57.932
+!MESSAGE [Info]	[fetchCompletions] Request b2b614a3-6370-47dd-b57d-5c61d18e8eec at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 416.6869999989867ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:57.997
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:58.424
+!MESSAGE [Info]	[fetchCompletions] Request d43fbe0b-0ad1-4794-9385-b9c460f02566 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 397.4433999992907ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:58.486
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:59.794
+!MESSAGE [Info]	[fetchCompletions] Request e664ab83-97c3-470c-8f15-2b7e124a3f0b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 439.7027000002563ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:39:59.997
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:00.374
+!MESSAGE [Info]	[fetchCompletions] Request 3150be29-3949-45fd-af68-14a6f392be4d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 368.0352999996394ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:00.679
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:01.081
+!MESSAGE [Info]	[fetchCompletions] Request eed987a9-daeb-4906-8ac5-129f9c35cfc8 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 386.61429999955ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:01.140
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:04.955
+!MESSAGE [Info]	[fetchCompletions] Request 9e4e1c86-83b5-4b07-9bc9-4146f8721a18 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 369.4265000000596ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:05.067
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:05.458
+!MESSAGE [Info]	[fetchCompletions] Request 76fbe82f-f0de-46d8-a4b0-e123e28dca7e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 369.11679999902844ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:05.516
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:11.162
+!MESSAGE [Info]	[fetchCompletions] Request 987d0e4c-179e-4678-96d4-549474930d84 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.24850000068545ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:11.301
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:11.766
+!MESSAGE [Info]	[fetchCompletions] Request 0028364a-e0d0-4fad-b33d-d6094f6df02e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 449.07290000095963ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:11.786
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:12.590
+!MESSAGE [Info]	[fetchCompletions] Request 8e5dc412-d9b7-468e-a7d0-1486d6b30c58 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.69419999979436ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:12.696
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:13.451
+!MESSAGE [Info]	[fetchCompletions] Request f47c5c3b-3b50-4426-b150-14f37c3e498e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 532.3526999987662ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:13.512
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:16.765
+!MESSAGE [Info]	[fetchCompletions] Request 2fb0ea37-e9c9-4128-97bf-7eca1c0405ac at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 398.4128000009805ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:16.892
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:17.740
+!MESSAGE [Info]	[fetchCompletions] Request 5f16b057-0d0d-49e2-91a8-41abfeb66ea6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 415.6327999997884ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:17.811
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:22.128
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:22.141
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:22.152
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:22.162
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:44.414
+!MESSAGE [Info]	[fetchCompletions] Request 9c59eedd-4e2f-414d-b137-805f36cdcc20 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 546.2629000004381ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:44.430
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:44.783
+!MESSAGE [Info]	[fetchCompletions] Request fccb6e2d-58c7-4eed-9159-61a166bb7b72 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 356.2269999999553ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:44.851
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:46.501
+!MESSAGE [Info]	[fetchCompletions] Request 35c895bb-4878-4770-b981-7c82578b4af0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 386.47690000012517ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:46.587
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:47.137
+!MESSAGE [Info]	[fetchCompletions] Request fd8229bd-be60-4362-ae97-645d556eb0e5 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 511.0778000000864ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:47.196
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:47.465
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:40:47.563
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:49.178
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:49.193
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:49.205
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:49.215
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:40:49.534
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:40:49.785
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:40:52.288
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:40:52.795
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:40:55.847
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:57.454
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:57.468
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:57.478
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:40:57.488
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:40:58.096
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:44:13.419
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:44:19.628
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:44:20.157
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:44:20.681
+!MESSAGE [Info]	[fetchCompletions] Request 9f29897c-6380-449f-bdcc-d72292708b9a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 971.7824000008404ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:44:20.761
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:44:21.147
+!MESSAGE [Info]	[fetchCompletions] Request e24b8ab7-1869-487b-8b13-f239361abec6 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 367.23929999955ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:44:21.216
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:44:21.556
+!MESSAGE [Info]	[fetchCompletions] Request d5bb7773-30ca-49a9-80b1-243b6e329153 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 322.3656999990344ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:44:21.615
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:44:21.877
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:44:21.887
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:44:21.896
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:44:21.905
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:44:22.490
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:04.210
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:07.433
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:07.795
+!MESSAGE [Info]	[fetchCompletions] Request 821a288a-5a00-4708-84f8-935ecbdc29f4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 378.9653999991715ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:07.858
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:11.521
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:11.835
+!MESSAGE [Info]	[fetchCompletions] Request e0435ae5-bad2-49a9-8e17-da628226e770 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 332.8034000005573ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:11.950
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:12.338
+!MESSAGE [Info]	[fetchCompletions] Request e4d398f3-8d9b-4135-8464-fdbb1f751ef3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 371.0777000002563ms
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:12.367
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:12.410
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:12.881
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:16.000
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:16.301
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:16.333
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:17.681
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:17.722
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:17.738
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:17.753
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:17.772
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:18.368
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:18.400
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:20.820
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:20.844
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:21.301
+!MESSAGE [Info]	[fetchCompletions] Request 2f373728-b163-432f-9127-6ec260d75654 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 338.056099999696ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:21.320
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:21.441
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:21.476
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:21.913
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:21.945
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:22.076
+!MESSAGE [Info]	[fetchCompletions] Request 543c5b0b-41c9-44d2-b859-7ab58aa7f4f0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 305.04099999926984ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:22.133
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:22.476
+!MESSAGE [Info]	[fetchCompletions] Request 41a61d8a-d61e-4a35-96a0-4548bfc6ab62 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 324.17989999987185ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:22.540
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:23.045
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:23.083
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:23.351
+!MESSAGE [Info]	[fetchCompletions] Request e54f0363-0f2d-4c4b-a325-27c8d5b6ba99 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 319.76560000143945ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:23.429
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:23.599
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:23.619
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:23.775
+!MESSAGE [Info]	[fetchCompletions] Request 6e955f5a-2430-4dcc-b05b-f4095c6349b3 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 325.78610000014305ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:23.840
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:24.048
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:24.087
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:24.603
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:24.641
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:25.041
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:25.075
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:26.731
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:26.741
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:26.750
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:26.777
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:27.363
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:27.399
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:39.926
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:39.967
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:40.207
+!MESSAGE [Info]	[fetchCompletions] Request ee6ff5e2-bc13-44d8-a525-fedb80243612 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 346.92349999956787ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:40.268
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:40.382
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:40.415
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:40.647
+!MESSAGE [Info]	[fetchCompletions] Request a321f32d-004c-4582-b066-bce75dbd9a99 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 350.92210000008345ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:40.799
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:41.181
+!MESSAGE [Info]	[fetchCompletions] Request a77a8cde-3679-43c1-a7e7-ae7890f63354 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 344.49459999985993ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:41.239
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:41.532
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:41.577
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:41.605
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:41.635
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:42.000
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:44.992
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:45.026
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:45.065
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:46.597
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:46.607
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:46.619
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:45:46.631
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:47.213
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:47.258
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:47.292
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:56.647
+!MESSAGE [Info]	[fetchCompletions] Request f004468c-c7cc-4220-8d28-4930e5a82680 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 423.5379000008106ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:56.714
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:56.883
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:56.908
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:56.939
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:57.279
+!MESSAGE [Info]	[fetchCompletions] Request ef8b95a7-54fa-4625-a6ec-e8753bac7bab at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 421.2971999999136ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:57.326
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:57.358
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:57.396
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:57.438
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:57.752
+!MESSAGE [Info]	[fetchCompletions] Request 76f9a825-3447-4405-93a5-0e9c1cc701ea at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 403.3769000004977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:57.836
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.224
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.258
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:58.290
+!MESSAGE [Info]	[fetchCompletions] Request 5acb4003-55ec-4863-82e6-9b22ce10004e at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 426.7558999992907ms
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.301
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:58.343
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:58.660
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.743
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.771
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.793
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:45:58.808
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=4963, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:45:59.029
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:00.877
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:00.888
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:00.898
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:00.908
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:01.474
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:01.507
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:01.540
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:01.578
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=4963, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:04.040
+!MESSAGE [Info]	[fetchCompletions] Request 54d81bf7-019c-4d24-b0f9-ce7006a7555d at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 411.3707999996841ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:04.061
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:04.241
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:04.273
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:04.310
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:04.350
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=4966, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:04.766
+!MESSAGE [Info]	[fetchCompletions] Request cdd0496e-c8c0-45d4-a111-098ff90c804a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 552.3743999991566ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:04.879
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:04.955
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:04.982
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:05.020
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:05.054
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=5364, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:05.255
+!MESSAGE [Info]	[fetchCompletions] Request ffa2cf2c-ec10-4072-bfb5-80ac81a523ad at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 333.3012999985367ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:05.360
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:05.710
+!MESSAGE [Info]	[fetchCompletions] Request 201011aa-8fe4-4946-9287-7d8b47986421 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 330.1606000009924ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:05.800
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:06.196
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:06.222
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:06.261
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:06.299
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=4966, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:06.961
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:06.974
+!MESSAGE [Info]	[fetchCompletions] Request 1e71b4ab-7345-4659-9b10-3f8e0b1e560b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 516.6879999991506ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:07.370
+!MESSAGE [Info]	[code-referencing] Calling Match
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:07.409
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:07.436
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:07.467
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:07.505
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=4416, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:07.544
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=5010, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-02-28 11:46:07.708
+!MESSAGE [Info]	[code-referencing] No match found
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:09.078
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:09.092
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:09.106
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:46:09.121
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:09.722
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=1761, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:09.755
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2374, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:09.790
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=2869, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:09.827
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=4416, length=15, tokenType=METHOD]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2026-02-28 11:46:09.866
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=5010, length=15, tokenType=METHOD]
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:48:19.343
+!MESSAGE [Info] Document is null for editor: application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:48:19.355
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/resources/application.properties
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:48:19.411
+!MESSAGE [Info] Document is null for editor: IndividualController.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:48:19.419
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/controllers/IndividualController.java
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:46.785
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:46.797
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:46.809
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:46.819
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-02-28 11:48:47.750
+!MESSAGE Could not get code actions due to timeout after 300 milliseconds in `textDocument/codeAction`
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-28 11:48:47.800
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:83)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:999)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:169)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1072)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:169)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3042)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2032)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:683)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2038)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:683)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2005)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1962)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1489)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1395)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:368)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1356)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1489)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:534)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1450)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:104)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:449)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-02-28 11:48:47.871
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:345)
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:440)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2117)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.checkMarkerResolution(LSPCodeActionMarkerResolution.java:159)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:210)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:83)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:999)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:156)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:169)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1072)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:169)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:3042)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2032)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:683)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2038)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:683)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:2005)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1962)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1489)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1395)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:368)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1356)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1489)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:534)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1450)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:104)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4137)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3753)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1147)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1038)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:185)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$3(LanguageServerWrapper.java:449)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:57.579
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:57.588
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:57.598
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:48:57.607
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:01.915
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:01.926
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:01.936
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:01.945
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:05.576
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:05.585
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:05.596
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:05.606
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:08.701
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:08.717
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:08.733
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-02-28 11:49:08.748
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.533
+!MESSAGE [Info] Document is null for editor: JWTConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.545
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/configurations/JWTConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.565
+!MESSAGE [Info] Document is null for editor: OpenAPISecurityConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.575
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/configurations/OpenAPISecurityConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.596
+!MESSAGE [Info] Document is null for editor: SecurityConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.607
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/configurations/SecurityConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.658
+!MESSAGE [Info] Document is null for editor: CorsConfig.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-02-28 11:49:12.666
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///E:/cognizantmsfeb2026/customerservice/src/main/java/com/cognizant/customerservice/configurations/CorsConfig.java

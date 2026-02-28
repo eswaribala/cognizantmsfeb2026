@@ -7,6 +7,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -36,6 +37,7 @@ public class IndividualController {
 	private IndividualMapper individualMapper;
 	//validation can be added using @Valid and validation annotations in the DTO
 	@PostMapping("/v1.0")
+	@PreAuthorize("hasAnyAuthority('ROLE_sre')")
 	public ResponseEntity<GenericMessage<IndividualResponse>> createIndividual(@Valid @RequestBody IndividualRequest individualRequest) {
 		//dto to entity
 		Individual individual = individualMapper.toEntity(individualRequest);
@@ -47,6 +49,7 @@ public class IndividualController {
 				.body(new GenericMessage<IndividualResponse>(individualResponse));
 	}
 	@GetMapping("/v1.0")
+	@PreAuthorize("hasAnyAuthority('ROLE_sre','ROLE_devopsengineer')")
 	public ResponseEntity<GenericMessage<List<IndividualResponse>>> getAllIndividuals() {
 		List<Individual> individuals = individualService.getAllIndividuals();
 		List<IndividualResponse> individualResponses = 
@@ -57,6 +60,7 @@ public class IndividualController {
 	}
 	
 	@GetMapping("/pages/v1.0")
+	@PreAuthorize("hasAnyAuthority('ROLE_devopsengineer')")
 	public ResponseEntity<GenericMessage<List<IndividualResponse>>> getAllIndividualsByPage(
 			@RequestParam int page, @RequestParam int size) {
 		Pageable pageable = PageRequest.of(page, size);
@@ -94,6 +98,7 @@ public class IndividualController {
 	
 	
 	@PatchMapping("/v1.0/{id}")
+	@PreAuthorize("hasAnyAuthority('ROLE_sre')")
 	public ResponseEntity<GenericMessage<IndividualResponse>> updateIndividualById
 	(@PathVariable Long id, @Valid @RequestBody UpdateRequest updateRequest) {
 		
@@ -106,6 +111,7 @@ public class IndividualController {
 	}
 	
 	@DeleteMapping("/v1.0/{id}")
+	@PreAuthorize("hasAnyAuthority('ROLE_sre')")
 	public ResponseEntity<GenericMessage<String>> deleteIndividualById
 	(@PathVariable Long id) {
 		
