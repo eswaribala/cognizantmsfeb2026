@@ -132,8 +132,56 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
          </dependency>
+         
+         <!--Junit-->
+         <!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+			<dependency>
+			    <groupId>org.junit.jupiter</groupId>
+			    <artifactId>junit-jupiter</artifactId>			    
+			    <scope>test</scope>
+			</dependency>
+			<!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+			<dependency>
+			    <groupId>org.junit.jupiter</groupId>
+			    <artifactId>junit-jupiter-api</artifactId>			   
+			    <scope>test</scope>
+			</dependency>
+			
+			<!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+			<dependency>
+			    <groupId>org.junit.jupiter</groupId>
+			    <artifactId>junit-jupiter-engine</artifactId>			   
+			    <scope>test</scope>
+			</dependency>
+			
+			<!-- Source: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+			<dependency>
+			    <groupId>org.junit.jupiter</groupId>
+			    <artifactId>junit-jupiter-params</artifactId>			  
+			    <scope>test</scope>
+			</dependency>
+			<!-- Source: https://mvnrepository.com/artifact/org.junit.platform/junit-platform-suite -->
+			<dependency>
+			    <groupId>org.junit.platform</groupId>
+			    <artifactId>junit-platform-suite</artifactId>			   
+			    <scope>test</scope>
+			</dependency>
+			         
 	</dependencies>
 
+		<reporting>
+		        <plugins>
+		            <plugin>
+		                <groupId>org.apache.maven.plugins</groupId>
+		                <artifactId>maven-surefire-report-plugin</artifactId>
+		                <version>3.5.3</version>
+		                <configuration>
+		                    <showSuccess>false</showSuccess>
+		                </configuration>
+		            </plugin>
+		
+		        </plugins>
+		    </reporting>
    <dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -165,6 +213,63 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M4</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>junit-jupiter-engine</artifactId>
+                        <version>6.0.2</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <testSourceDirectory>src/test/java</testSourceDirectory>
+                    <trimStackTrace>false</trimStackTrace>
+                </configuration>
+            </plugin>
+            <!--jacoco:report checkstyle:checkstyle install -->
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.12</version>
+                <executions>
+                    <execution>
+                        <id>jacoco-initialize</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>jacoco-site</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution>
+                     <!-- Generate Report -->
+				        <execution>
+				            <id>report</id>
+				            <phase>test</phase>
+				            <goals>
+				                <goal>report</goal>
+				            </goals>
+				            <configuration>
+				                <excludes>
+				                    <!-- Keep empty to include models package -->
+				                </excludes>
+				                <includes>
+				                    <!-- Explicitly include your models -->
+				                    <include>com/cognizant/banking/models/**</include>
+				                    <include>**/*</include>
+				                </includes>
+				            </configuration>
+				        </execution>
+
+                </executions>
+            </plugin>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
