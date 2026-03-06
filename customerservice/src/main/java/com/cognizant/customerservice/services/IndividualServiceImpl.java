@@ -20,7 +20,7 @@ public class IndividualServiceImpl  implements IndividualService {
 	}
 
 	@Override
-	public Individual getIndividualById(Long id) {
+	public Individual getIndividualById(Long id)  {
 		// TODO Auto-generated method stub
 		return individualRepository.findById(id).orElseThrow(
 				()->new CustomerNotFoundException("Individual with id "+id+" not found"));
