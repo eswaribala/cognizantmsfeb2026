@@ -32,7 +32,7 @@ public class GatewaySwaggerAggregatorConfig {
             String routeId = def.getId();
             if (routeId == null || routeId.isBlank()) return;
 
-            // Your route ids are like: HOSPITALMANGEMENTAPI_PREFIX
+            // Your route ids are like: PRODUCTSERVICE_PREFIX
             // We use _PREFIX routes as the "service routes"
             if (!routeId.endsWith("_PREFIX")) return;
 
