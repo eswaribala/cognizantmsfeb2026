@@ -1,0 +1,16 @@
+package com.cognizant.product.services;
+
+import java.util.HashMap;
+import java.util.List;
+import com.cognizant.product.entities.Product;
+import com.cognizant.product.exceptions.CatalogNotFoundException;
+import com.cognizant.product.exceptions.ProductNotFoundException;
+
+public interface ProductService {	
+	Product addProduct(long catalogId,Product product) throws CatalogNotFoundException;
+	List<Product> getAllProducts();
+	Product getProductById(long productId) throws ProductNotFoundException;
+	Product updateProduct(long productId, long price) throws ProductNotFoundException;
+	boolean deleteProduct(long productId) throws ProductNotFoundException;
+    HashMap<String, String> getProductsAndCatalogs();
+}
