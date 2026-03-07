@@ -32,16 +32,16 @@ spring:
 
           routes:
             # 1) Prefix route: /HOSPITALMANGEMENTAPI/** -> forwards to service without the prefix
-            - id: HOSPITALMANGEMENTAPI_PREFIX
-              uri: lb://HOSPITALMANGEMENTAPI
+            - id: PRODUCTSERVICE_PREFIX
+              uri: lb://PRODUCTSERVICE
               predicates:
-                - Path=/HOSPITALMANGEMENTAPI/**
+                - Path=/PRODUCTSERVICE/**
               filters:
                 - StripPrefix=1
 
             # 2) Direct route: no prefix, forward as-is
-            - id: HOSPITALMANGEMENTAPI_DIRECT
-              uri: lb://HOSPITALMANGEMENTAPI
+            - id: PRODUCTSERVICE_DIRECT
+              uri: lb://PRODUCTSERVICE
               predicates:
                 - Path=/swagger-ui.html,/v3/api-docs/**,/swagger-ui/**,/users/**,/roles/**
 
