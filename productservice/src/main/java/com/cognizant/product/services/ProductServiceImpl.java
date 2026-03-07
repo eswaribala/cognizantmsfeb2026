@@ -6,6 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.cognizant.product.dtos.ProductCatalogResponse;
 import com.cognizant.product.entities.Product;
 import com.cognizant.product.exceptions.CatalogNotFoundException;
 import com.cognizant.product.exceptions.ProductNotFoundException;
@@ -64,9 +65,12 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public HashMap<String, String> getProductsAndCatalogs() {
+	public List<ProductCatalogResponse> getProductsAndCatalogs() {
 		// TODO Auto-generated method stub
-		return productRepository.findProductAndCatalog();
+		List<Object[]> objects=productRepository.findProductAndCatalog();
+		return objects.stream()
+				.map(obj -> new ProductCatalogResponse((String) obj[0], (String) obj[1]))
+				.toList();
 	}
 
 }

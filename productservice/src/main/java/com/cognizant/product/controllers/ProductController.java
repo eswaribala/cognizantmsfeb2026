@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cognizant.product.dtos.GenericResponse;
+import com.cognizant.product.dtos.ProductCatalogResponse;
 import com.cognizant.product.dtos.ProductRequest;
 import com.cognizant.product.dtos.ProductResponse;
 import com.cognizant.product.entities.Product;
@@ -79,10 +80,10 @@ public class ProductController {
     }
     
     @GetMapping("/v1.0/productsAndCatalogs")
-    public ResponseEntity<GenericResponse<HashMap<String,String>>> getProductsWithCatalogs() {
-		HashMap<String,String> productsAndCatalogs= productService.getProductsAndCatalogs();
+    public ResponseEntity<GenericResponse<List<ProductCatalogResponse>>> getProductsWithCatalogs() {
+    	List<ProductCatalogResponse> productsAndCatalogs= productService.getProductsAndCatalogs();
 		return ResponseEntity.status(HttpStatus.OK)
-				.body(new GenericResponse<HashMap<String,String>>(productsAndCatalogs));
+				.body(new GenericResponse<List<ProductCatalogResponse>>(productsAndCatalogs));
 	}
     
 }
