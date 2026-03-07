@@ -1,7 +1,0 @@
-package com.cognizant.gateway.configurations;
-
-@Configuration
-@EnableWebSecurity
-public class SecurityConfig {
-
-}
