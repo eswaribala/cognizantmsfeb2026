@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cognizant.product.dtos.CatalogRequest;
@@ -58,9 +59,12 @@ public class CatalogController {
 	    CatalogResponse catalogResponse = catalogmapper.toCatalogResponse(catalog);
 	    return ResponseEntity.status(HttpStatus.OK).body(new GenericResponse<CatalogResponse>(catalogResponse));
 	}
-	@PutMapping("/v1.0/{id}")
-	public ResponseEntity<GenericResponse<CatalogResponse>> updateCatalog(@Valid @RequestBody CatalogRequest request) throws CatalogNotFoundException {
-		Catalog catalog = catalogmapper.toCatalog(request);
+	@PutMapping("/v1.0")
+	public ResponseEntity<GenericResponse<CatalogResponse>> updateCatalog(@RequestParam long catalogId, @RequestParam String catalogName) throws CatalogNotFoundException {
+		
+		Catalog catalog = new Catalog();
+		catalog.setCatalogId(catalogId);
+		catalog.setCatalogName(catalogName);
 		Catalog updatedCatalog = catalogService.updateCatalog(catalog);
 	    CatalogResponse catalogResponse = catalogmapper.toCatalogResponse(updatedCatalog);
 	    return ResponseEntity.status(HttpStatus.OK).body(new GenericResponse<CatalogResponse>(catalogResponse));

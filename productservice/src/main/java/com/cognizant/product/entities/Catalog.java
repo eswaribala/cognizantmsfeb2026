@@ -4,6 +4,7 @@ import com.cognizant.product.facades.CatalogIdAnnotator;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,6 +16,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "catalog")
 public class Catalog {
+	@Id
 	@CatalogIdAnnotator
     @Column(name = "catalog_id") 
 	private long catalogId;
