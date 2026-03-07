@@ -26,12 +26,7 @@ public class GlobalExceptionHandler {
 	}
 	
 	
-	@ExceptionHandler(Exception.class)
-	public ResponseEntity<GenericResponse<String>> handleGenericException(Exception ex) {
-		return ResponseEntity.status(HttpStatus.SC_INTERNAL_SERVER_ERROR)
-				.body(new GenericResponse<>("An unexpected error occurred: " + ex.getMessage()));
-	}
-	
+
 	@ExceptionHandler(RuntimeException.class)
 	public ResponseEntity<GenericResponse<String>> handleRuntimeException(RuntimeException ex) {
 		return ResponseEntity.status(HttpStatus.SC_INTERNAL_SERVER_ERROR)
