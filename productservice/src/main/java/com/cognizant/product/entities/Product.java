@@ -5,6 +5,8 @@ import java.time.LocalDate;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.format.annotation.DateTimeFormat.ISO;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -44,6 +46,7 @@ public class Product {
 	private LocalDate expiryDate;
 	@ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.MERGE)
 	@JoinColumn(foreignKey = @ForeignKey(name = "catalogId"),name = "catalog_id")
+	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	private Catalog catalog;
 
 }

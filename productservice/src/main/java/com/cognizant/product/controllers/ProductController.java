@@ -2,10 +2,12 @@ package com.cognizant.product.controllers;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -24,11 +26,20 @@ import com.cognizant.product.exceptions.CatalogNotFoundException;
 import com.cognizant.product.exceptions.ProductNotFoundException;
 import com.cognizant.product.mappers.ProductMapper;
 import com.cognizant.product.services.ProductService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/products")
+@CrossOrigin(
+	    origins = {
+	        "http://localhost:8765",
+	        "http://localhost:7074",
+	        "http://localhost:7076"
+	    },
+	    allowCredentials = "true"
+	)
 public class ProductController {
     @Autowired
 	private ProductService productService;
@@ -85,5 +96,24 @@ public class ProductController {
 		return ResponseEntity.status(HttpStatus.OK)
 				.body(new GenericResponse<List<ProductCatalogResponse>>(productsAndCatalogs));
 	}
+    
+    @GetMapping("/v1.0/sendToKafka")
+    public CompletableFuture<ResponseEntity<GenericResponse<String>>> 
+    sendProductToKafka(@RequestParam long productId) throws ProductNotFoundException,
+    JsonProcessingException {
+		return productService.sendProductToKafka(productId)
+				.thenApply(sendResult -> ResponseEntity.status(HttpStatus.OK)
+						.body(new GenericResponse<String>("Product with id "+productId+" "
+								+ "sent to Kafka topic successfully"
+								+sendResult.getProducerRecord().value()+
+								" with offset "
+								+sendResult.getRecordMetadata().offset()+" and partition "
+								+sendResult.getRecordMetadata().partition())))
+				.exceptionally(ex -> ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
+						.body(new GenericResponse<String>("Failed to send product with id "+
+				productId+" to Kafka topic: " + ex.getMessage())));
+	}
+    
+    
     
 }

@@ -6,6 +6,8 @@ import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.security.*;
+import io.swagger.v3.oas.models.security.*;
+import io.swagger.v3.oas.models.servers.Server;
 
 import java.util.List;
 
@@ -22,6 +24,7 @@ public class OpenAPISecurityConfig {
     @Bean
     public OpenAPI openAPI() {
         return new OpenAPI()
+        		
             .components(new Components()
                 .addSecuritySchemes("keycloakSRE", oauthScheme("sre", "SRE access"))
                 .addSecuritySchemes("keycloakDevOpsEngineer", oauthScheme("devopsengineer", "Devops Engineer access"))

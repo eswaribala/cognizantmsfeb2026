@@ -57,7 +57,8 @@ eureka:
     fetch-registry: true
   instance:
     hostname: localhost
-    prefer-ip-address: true
+    prefer-ip-address: false
+    instance-id: ${spring.application.name}:${random.value}
 
 management:
   endpoints:
