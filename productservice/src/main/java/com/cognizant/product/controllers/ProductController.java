@@ -7,6 +7,7 @@ import java.util.concurrent.CompletableFuture;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -47,6 +48,7 @@ public class ProductController {
     private ProductMapper productMapper;
     
     @PostMapping("/v1.0")
+    @PreAuthorize("hasAnyAuthority('SCOPE_sre')")
     public ResponseEntity<GenericResponse<ProductResponse>> addProduct(@Valid @RequestBody ProductRequest productRequest,@RequestParam long catalogId) throws CatalogNotFoundException {
 		Product product = productMapper.toProduct(productRequest);
 		Product savedProduct = productService.addProduct(catalogId, product);
@@ -55,6 +57,7 @@ public class ProductController {
 				.body(new GenericResponse<ProductResponse>(productResponse));
 	}
     @GetMapping("/v1.0")
+    @PreAuthorize("hasAnyAuthority('SCOPE_sre','SCOPE_devopsengineer')")
     public ResponseEntity<GenericResponse<List<ProductResponse>>> getAllProducts() {
     	List<Product> products = productService.getAllProducts();
     	List<ProductResponse> productResponses = productMapper.toProductResponseList(products);

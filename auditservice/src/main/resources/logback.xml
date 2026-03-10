@@ -1,0 +1,41 @@
+<configuration debug="true">
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
+
+   <conversionRule conversionWord="maskEmail"  converterClass="com.boa.userservice.logging.MaskEmailConverter"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %maskEmail%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Log file location -->
+        <param name="File" value="logs/audits.log"/>
+
+        <!-- Append to existing file -->
+        <param name="Append" value="true"/>
+
+        <!-- Maximum file size -->
+        <param name="MaxFileSize" value="10MB"/>
+
+        <!-- Backup files -->
+        <param name="MaxBackupIndex" value="10"/>
+
+        <!-- Log pattern -->
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                   value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </layout>
+    </appender>
+
+    <logger name="com.boa" level="DEBUG" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <root level="ERROR">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>
