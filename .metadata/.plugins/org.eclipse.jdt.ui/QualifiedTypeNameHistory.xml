@@ -29,4 +29,8 @@
     <fullyQualifiedTypeName name="org.apache.hc.core5.http.HttpStatus"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="org.springframework.security.access.prepost.PreAuthorize"/>
+    <fullyQualifiedTypeName name="org.bson.codecs.pojo.annotations.BsonId"/>
+    <fullyQualifiedTypeName name="lombok.extern.slf4j.Slf4j"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaListener"/>
+    <fullyQualifiedTypeName name="org.springframework.kafka.annotation.KafkaHandler"/>
 </qualifiedTypeNameHistroy>
