@@ -1,0 +1,8 @@
+2026-03-10 14:56:11 INFO  c.c.a.AuditserviceApplication - Starting AuditserviceApplication using Java 21.0.5 with PID 10428 (E:\cognizantmsfeb2026\auditservice\target\classes started by param in E:\cognizantmsfeb2026\auditservice)
+2026-03-10 14:56:11 DEBUG c.c.a.AuditserviceApplication - Running with Spring Boot v4.0.3, Spring v7.0.5
+2026-03-10 14:56:11 INFO  c.c.a.AuditserviceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 14:56:14 INFO  c.c.a.AuditserviceApplication - Started AuditserviceApplication in 3.017 seconds (process running for 4.52)
+2026-03-10 15:32:23 INFO  c.c.a.controllers.AuditController - Audit Log - User: 96121700-3178-4c7c-b012-959b574840bb, Role: sre, Action: Accessed CatalogController
+2026-03-10 15:36:25 INFO  c.c.a.controllers.AuditController - Audit Log - User: 96121700-3178-4c7c-b012-959b574840bb, Role: sre, Action: Accessed CatalogController
+2026-03-10 15:38:39 INFO  c.c.a.controllers.AuditController - Audit Log - User: 96121700-3178-4c7c-b012-959b574840bb, Role: sre, Action: Accessed CatalogController
+2026-03-10 15:51:39 INFO  c.c.a.controllers.AuditController - Audit Log - User: 96121700-3178-4c7c-b012-959b574840bb, Role: sre, Action: CatalogController-getAllCatalogs
