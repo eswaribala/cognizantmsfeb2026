@@ -46,8 +46,7 @@ public class CatalogController {
 	private CatalogService catalogService;
 	@Autowired
 	private CatalogMapper catalogmapper;
-	@Autowired
-	private RestClient restClient;
+	
 	
 	
 	
