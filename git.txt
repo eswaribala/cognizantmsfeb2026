@@ -1,3 +1,2 @@
-git clone --filter=blob:none --sparse https://github.com/eswaribala/cognizantmsfeb2026
-cd projects
-git sparse-checkout set productdockerservice
+git clone -b projects https://github.com/eswaribala/cognizantmsfeb2026
+
