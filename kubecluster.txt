@@ -23,7 +23,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 #create kube cluster using us-east-2  in aws ui
 ______
- eksctl create cluster --name my-cluster --region us-east-1 --nodegroup-name standard-workers --node-type t3.small --nodes 2 --nodes-min 1 --nodes-max 3 --managed
+ eksctl create cluster --name kube-cluster --region us-east-1 --nodegroup-name standard-workers --node-type t3.small --nodes 2 --nodes-min 1 --nodes-max 3 --managed
 ---------
 
 Use the AWS CLI update-kubeconfig command to create or update your kubeconfig for your cluster.
