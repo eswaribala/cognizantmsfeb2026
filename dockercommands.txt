@@ -47,6 +47,7 @@ docker exec -it <containerid>  bin/bash
 #show databases;
 
 #connect to remote repository
+#use docker hub accesstoken as password
 docker login registry-1.docker.io
 docker tag <imagename> <dockerhubid/reponame:tagname>
 docker push <dockerhubid/reponame:tagname>
