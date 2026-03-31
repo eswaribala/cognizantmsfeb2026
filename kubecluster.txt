@@ -75,3 +75,6 @@ kubectl get nodes
 kubectl api-resources
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 helm version
+Apigee’s EKS setup notes that for Kubernetes 1.24+, you need the Amazon EBS CSI driver.
+aws eks create-addon --cluster-name $CLUSTER --region $REGION --addon-name aws-ebs-csi-driver 
+aws eks describe-addon --cluster-name $CLUSTER --region $REGION --addon-name aws-ebs-csi-driver --query "addon.status" --output text
