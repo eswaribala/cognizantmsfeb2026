@@ -73,3 +73,5 @@ eksctl create nodegroup --cluster my-cluster --region us-east-1  --name standard
 kubectl get nodes
 #to list operations supported kubernetes
 kubectl api-resources
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+helm version
